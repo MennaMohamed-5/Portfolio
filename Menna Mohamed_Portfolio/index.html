@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menna Mohamed | Software Engineer & Front-End Developer</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Ambient Background Lighting -->
+    <div class="glow-sphere sphere-1"></div>
+    <div class="glow-sphere sphere-2"></div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="logo"><span class="code-tag">&lt;</span>Menna<span class="highlight">.Dev</span><span class="code-tag"> /&gt;</span></a>
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#contact" class="nav-link btn-contact">Contact Me</a></li>
+            </ul>
+
+            <!-- Theme Toggle Button -->
+            <button id="theme-toggle" class="theme-btn" aria-label="Toggle Theme">
+                <i class="fa-solid fa-moon moon-icon"></i>
+                <i class="fa-solid fa-sun sun-icon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="container hero-container">
+            
+            <!-- Left Side: Text Content -->
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="status-dot"></span> Available for New Opportunities
+                </div>
+                
+                <h1 class="hero-title">
+                    Hi, I'm <span id="typing-text" class="gradient-text"></span><span class="typing-cursor">|</span>
+                </h1>
+                
+                <h2 class="hero-subheading">
+                    Crafting High-Performance Web Interfaces & Software
+                </h2>
+
+                <p class="hero-subtitle">
+                    A Software Engineer & Front-End Developer with a strong background in UX/UI design[cite: 2]. Specializing in transforming complex ideas into intuitive, dynamic web applications.
+                </p>
+                
+                <div class="hero-cta">
+                    <a href="#projects" class="btn primary-btn"><i class="fa-solid fa-code"></i> View Projects</a>
+                    <a href="#contact" class="btn secondary-btn"><i class="fa-solid fa-paper-plane"></i> Get In Touch</a>
+                </div>
+                
+                <div class="hero-socials">
+                    <a href="https://www.linkedin.com/in/menna-mohamed-9a149a334" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="mailto:mennaallahmohammedawad@gmail.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+
+            <!-- Right Side: Profile Image -->
+            <div class="hero-image-wrapper">
+                <div class="image-border-glow">
+                    <img src="Me-removebg-preview.png" alt="Menna Mohamed" class="hero-img">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title"><span class="title-num">01.</span> About Me</h2>
+            <div class="about-grid">
+                <div class="about-text glass-card">
+                    <p>
+                        I am a Junior Scientific Computing student at <strong>Ain Shams University (Faculty of Computer and Information Sciences)</strong>, set to graduate in 2027[cite: 1, 2].
+                    </p>
+                    <p>
+                        My journey bridges the gap between functional software engineering and human-centered design. With a strong foundation in Front-End development and hands-on UX/UI expertise, I build high-performance, user-friendly interfaces that drive seamless user experiences[cite: 1, 2].
+                    </p>
+                    <div class="education-highlights">
+                        <div class="edu-item">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <div>
+                                <h4>B.Sc. in Computer & Information Sciences</h4>
+                                <p>Major: Scientific Computing (SC) | CGPA: 3.1 (Very Good)[cite: 2]</p>
+                                <span>Ain Shams University (2023 - 2027)[cite: 1, 2]</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title"><span class="title-num">02.</span> Technical Stack</h2>
+            <div class="skills-grid">
+                
+                <div class="skill-category glass-card">
+                    <div class="cat-header">
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <h3>Web Development</h3>
+                    </div>
+                    <div class="tags">
+                        <span class="tag">HTML5</span>
+                        <span class="tag">CSS3</span>
+                        <span class="tag">JavaScript (ES6+)</span>
+                        <span class="tag">TypeScript</span>
+                        <span class="tag">Bootstrap</span>
+                        <span class="tag">Angular</span>
+                        <span class="tag">Responsive Design</span>
+                    </div>
+                </div>
+
+                <div class="skill-category glass-card">
+                    <div class="cat-header">
+                        <i class="fa-solid fa-code"></i>
+                        <h3>Languages & Core CS</h3>
+                    </div>
+                    <div class="tags">
+                        <span class="tag">C++</span>
+                        <span class="tag">C#</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">Java</span>
+                        <span class="tag">Scala</span>
+                        <span class="tag">OOP</span>
+                        <span class="tag">Data Structures</span>
+                        <span class="tag">Algorithms</span>
+                    </div>
+                </div>
+
+                <div class="skill-category glass-card">
+                    <div class="cat-header">
+                        <i class="fa-solid fa-screwdriver-wrench"></i>
+                        <h3>Tools & Databases</h3>
+                    </div>
+                    <div class="tags">
+                        <span class="tag">Git / GitHub</span>
+                        <span class="tag">Figma (UI/UX)</span>
+                        <span class="tag">VS Code</span>
+                        <span class="tag">Visual Studio</span>
+                        <span class="tag">SQL Server</span>
+                        <span class="tag">Oracle DB</span>
+                        <span class="tag">Jira</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience & Leadership Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title"><span class="title-num">03.</span> Experience & Leadership</h2>
+            <div class="timeline">
+
+                <div class="timeline-item glass-card">
+                    <div class="timeline-date">2026 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Coding Instructor</h3>
+                        <span class="org">iSchool (DECI & DEMI Initiatives - MCIT)[cite: 2]</span>
+                        <ul>
+                            <li>Delivered interactive coding and computer science sessions under Digital Egypt Cubs (DECI) and Marvels (DEMI) initiatives[cite: 2].</li>
+                            <li>Mentored young minds in programming logic, algorithms, and project-based problem solving[cite: 2].</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item glass-card">
+                    <div class="timeline-date">2024 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Head of Web Development Training</h3>
+                        <span class="org">iClub – Innovation Hub (iHub) | Ain Shams University[cite: 1, 2]</span>
+                        <ul>
+                            <li>Led technical teams and mentored 100+ students across web development fundamentals and modern frameworks[cite: 1, 2].</li>
+                            <li>Designed structured training roadmaps, prepared real-world coding projects, and ensured high code quality[cite: 2].</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item glass-card">
+                    <div class="timeline-date">2025 - 2026</div>
+                    <div class="timeline-content">
+                        <h3>Head of Web Development Training</h3>
+                        <span class="org">Students for Egypt (SFE) | Ain Shams University[cite: 1, 2]</span>
+                        <ul>
+                            <li>Supervised 15+ technical web teams (50+ students) and conducted hands-on technical workshops[cite: 2].</li>
+                            <li>Empowered team members to deploy scalable web solutions for university-wide events[cite: 1, 2].</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title"><span class="title-num">04.</span> Featured Projects</h2>
+            <div class="projects-grid">
+
+                <div class="project-card glass-card">
+                    <div class="project-tag">Machine Learning & Web</div>
+                    <h3 class="project-title">Game Popularity Prediction System</h3>
+                    <p class="project-desc">
+                        An end-to-end Machine Learning web application utilizing Scikit-learn, Pandas, and NLTK sentiment analysis to predict game popularity via Regression & Classification models[cite: 2].
+                    </p>
+                    <div class="project-tech">
+                        <span>Python</span><span>Scikit-learn</span><span>NLTK</span><span>Pandas</span>
+                    </div>
+                    <div class="project-links">
+                        <button class="btn-demo" onclick="openDemo('Game Popularity Prediction', 'https://github.com', 'https://example.com/live-regression')">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+                        </button>
+                    </div>
+                </div>
+
+                <div class="project-card glass-card">
+                    <div class="project-tag">E-Commerce Web App</div>
+                    <h3 class="project-title">TechnoCover E-Commerce</h3>
+                    <p class="project-desc">
+                        A modern front-end e-commerce platform dedicated to selling laptop covers and accessories with responsive product filtering and shopping cart features[cite: 1, 2].
+                    </p>
+                    <div class="project-tech">
+                        <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Bootstrap</span>
+                    </div>
+                    <div class="project-links">
+                        <button class="btn-demo" onclick="openDemo('TechnoCover E-Commerce', 'https://github.com', 'https://example.com/technocover')">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+                        </button>
+                    </div>
+                </div>
+
+                <div class="project-card glass-card">
+                    <div class="project-tag">Desktop & Data Structures</div>
+                    <h3 class="project-title">Gym & Padel Management System</h3>
+                    <p class="project-desc">
+                        Full-fledged desktop GUI booking system built using C++ and Qt, implementing Binary Search Trees, Queues, Stacks, and Vectors for efficient court management[cite: 2].
+                    </p>
+                    <div class="project-tech">
+                        <span>C++</span><span>Qt Framework</span><span>Data Structures</span>
+                    </div>
+                    <div class="project-links">
+                        <button class="btn-demo" onclick="openDemo('Gym & Padel System', 'https://github.com', '')">
+                            <i class="fa-brands fa-github"></i> Repository
+                        </button>
+                    </div>
+                </div>
+
+                <div class="project-card glass-card">
+                    <div class="project-tag">Web Utility App</div>
+                    <h3 class="project-title">CRUDS Management System</h3>
+                    <p class="project-desc">
+                        Web application for managing items with full Create, Read, Update, Delete, and Search features, equipped with custom Light & Dark modes[cite: 1].
+                    </p>
+                    <div class="project-tech">
+                        <span>JavaScript</span><span>CSS3</span><span>HTML5</span>
+                    </div>
+                    <div class="project-links">
+                        <button class="btn-demo" onclick="openDemo('CRUDS System', 'https://github.com', 'https://example.com/cruds')">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section">
+        <div class="container">
+            <h2 class="section-title"><span class="title-num">05.</span> Certifications & Training</h2>
+            <div class="cert-grid">
+                <div class="cert-card glass-card">
+                    <i class="fa-solid fa-certificate cert-icon"></i>
+                    <h4>UI/UX Design Training (120 Hours)</h4>
+                    <p>National Telecommunication Institute (NTI) | Score: 94%[cite: 1, 2]</p>
+                </div>
+                <div class="cert-card glass-card">
+                    <i class="fa-solid fa-certificate cert-icon"></i>
+                    <h4>Front-End Web Development Diploma</h4>
+                    <p>SEF Academy | Score: 99.11%[cite: 1, 2]</p>
+                </div>
+                <div class="cert-card glass-card">
+                    <i class="fa-solid fa-certificate cert-icon"></i>
+                    <h4>SQL (Basic, Intermediate, Advanced)</h4>
+                    <p>HackerRank Skill Certification[cite: 2]</p>
+                </div>
+                <div class="cert-card glass-card">
+                    <i class="fa-solid fa-certificate cert-icon"></i>
+                    <h4>T-SQL Queries & Programming</h4>
+                    <p>DotNetWithElwakeel | Score: 95%[cite: 2]</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container contact-container">
+            <h2 class="section-title text-center"><span class="title-num">06.</span> Get In Touch</h2>
+            <p class="contact-desc text-center">
+                Whether you have a project in mind, want to discuss software engineering opportunities, or simply say hi, my inbox is always open!
+            </p>
+            <div class="contact-card glass-card">
+                <div class="contact-info">
+                    <a href="mailto:mennaallahmohammedawad@gmail.com" class="c-link"><i class="fa-solid fa-envelope"></i> mennaallahmohammedawad@gmail.com</a>
+                    <a href="tel:+201271583167" class="c-link"><i class="fa-solid fa-phone"></i> +20 127 158 3167</a>
+                    <span class="c-link"><i class="fa-solid fa-location-dot"></i> Cairo, Egypt</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Designed & Built by <strong>Menna Mohamed</strong> &copy; 2026</p>
+    </footer>
+
+    <!-- Interactive Project Modal -->
+    <div id="demoModal" class="modal">
+        <div class="modal-content glass-card">
+            <span class="close-modal">&times;</span>
+            <h3 id="modalTitle">Project Demo</h3>
+            <p id="modalDesc">Interactive Live Preview & Links:</p>
+            <div class="modal-actions">
+                <a id="modalLive" href="#" target="_blank" class="btn primary-btn"><i class="fa-solid fa-external-link"></i> Open Live Demo</a>
+                <a id="modalGithub" href="#" target="_blank" class="btn secondary-btn"><i class="fa-brands fa-github"></i> View GitHub</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
